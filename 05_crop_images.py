@@ -19,7 +19,7 @@ hands = mp_hands.Hands(
     min_detection_confidence=0.5,
 )
 
-# Load original splits produced by 02_prepare_splits.py
+# Load original splits produced by 02_data_validation.py
 with open('splits.pkl', 'rb') as f:
     X_train_paths, X_val_paths, X_test_paths, y_train, y_val, y_test = pickle.load(f)
 

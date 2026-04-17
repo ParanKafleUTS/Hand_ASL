@@ -10,7 +10,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from tqdm import tqdm
 
-# Load splits produced by 02_prepare_splits.py
+# Load splits produced by 02_data_validation.py
 with open('splits.pkl', 'rb') as f:
     X_train_paths, X_val_paths, X_test_paths, y_train, y_val, y_test = pickle.load(f)
 

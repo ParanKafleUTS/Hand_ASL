@@ -10,7 +10,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 IMG_SIZE = 224
 BATCH_SIZE = 32
 
-# Load splits produced by 05_mediapipe_crop.py
+# Load splits produced by 05_crop_images.py
 with open('processed_splits.pkl', 'rb') as f:
     X_crop_train, X_crop_val, X_crop_test, y_crop_train, y_crop_val, y_crop_test = pickle.load(f)
 

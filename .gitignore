@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artefacts (large files)
+*.h5
+*.pkl
+*.zip
+train_folder.txt
+class_names.txt
+processed_images/
+ASL_Alphabet_Dataset/
+subset_5000/
+splits.pkl
+processed_splits.pkl
+
+# Plots
+model_comparison.png
